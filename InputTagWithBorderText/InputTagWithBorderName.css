@@ -4,6 +4,9 @@ body {
 
 .inputWithLabel{
     display: flex;
+    margin-top: 5%;
+    position: relative;
+    border: 1px solid white;
 }
 
 input {
@@ -15,6 +18,8 @@ input {
     color: #bfa181;
     padding: 1% 2.5%;
     font-size: 19px;
+    width: 80%;
+    height: 60px;
 }
 
 label {
@@ -36,8 +41,8 @@ label {
     }
 
     label {
-        top: 1.6%;
-        left: 5%;
+        top: 10%;
+        left: 6.5%;
         font-size: 13px;
     }
 }
@@ -53,22 +58,22 @@ label {
     label {
         font-size: 13px;
         left: 8%;
-        top: 3.2%;
+        top: 17.5%;
     }
 }
 
 /* ------------------ for laptop screens -------------------- */
 @media(min-width: 900px) {
     input {
-        width: 40%;
+        width: 80%;
         height: 60px;
-        margin: 3% 30%;
+        margin: 3% 10%;
         padding: 2%;
     }
 
     label{
-        top: 4.4%;
-        left: 31%;
+        top: 22.5%;
+        left: 12%;
         font-size: 14px;
     }
 }
