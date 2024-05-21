@@ -8,6 +8,9 @@ export default function FrontPage() {
   return (
     <div>
       <InputTagWithBorderName
+        labelText="Crypt Name"
+        inputType="text"
+        placeholder="Crypto Name"
         inputValue={name}
         setInputValueMethod={setName}
         forMobileScreen={

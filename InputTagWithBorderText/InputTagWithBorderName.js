@@ -69,12 +69,12 @@ export default function InputTagWithBorderName(props) {
             <div className="inputWithLabel">
 
                 <label style={LableStyle}>
-                    Crypto Name
+                    {props.labelText}
                 </label>
 
                 <input
-                    type="text"
-                    placeholder="Crypto Name"
+                    type={props.inputType}
+                    placeholder={props.placeholder}
                     value={props.inputValue}
                     onChange={inputHandler}
                     style={InputBoxStyle}
