@@ -16,6 +16,7 @@ export default function InputTagWithBorderName(props) {
         padding: '0 5px',
         color: '#bfa181',
         display: props.inputValue === "" ? "none" : "initial",
+        readOnly : props.readOnly,
 
         '@media(min-width: 300px)': {
             fontSize: '13px',
